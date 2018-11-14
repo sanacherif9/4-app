@@ -1,0 +1,108 @@
+@import url('<link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">');
+@import url('<link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Lemonada" rel="stylesheet">');
+@import url('<link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Lemonada|Life+Savers" rel="stylesheet">');
+.App {
+margin: 0%;
+}
+.City{
+  display: flex;
+  justify-content: space-around;
+ }
+.program{
+  width: 58%;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding:  20px 0;
+}
+
+.description1{
+  text-align: left;
+  margin: 20px;
+  vertical-align:middle;
+  color:rgb(100, 100, 100); 
+}
+.description{
+  text-align: left;
+ margin-top: 10%;
+ margin-bottom: 10%;
+  vertical-align:middle;
+  font-size: 150%;
+  color:rgb(8, 8, 8); 
+width: 100%;
+text-align: center;
+}
+
+.titreLocation{
+  text-align: center;
+  font-family: 'Lemonada', cursive;
+color: rgb(37, 37, 37);
+font-weight: bold;
+}
+.desLocation{
+  color: rgb(73, 73, 73);
+}
+.chiffres{
+  display: flex;
+  justify-content: space-between;
+  }
+  .ligne{
+    width: 30%;
+  }
+.number{
+ font-family: 'Kaushan Script', cursive;
+ font-display: initial;
+ font-size: 300%;
+}
+.nomville{
+  text-align: center;
+}
+.statistique{
+  justify-content: space-around;
+  margin :20px;
+}
+.statistic{
+  width: 15%;
+  text-align: center;
+  
+}
+.statistique{
+  background-image: url(./photos/background.jpg);
+  background-size: 100%;
+  overflow: visible;
+  margin: 0%;
+}
+.repartition{
+  display: flex;
+  text-align: center;
+}
+.titre{
+  border: 3px solid #ccc;
+  border-radius: 40px;
+  cursor: pointer;
+  margin: 0;
+ padding: 0% 2% 0.5% 2%;
+ display: inline;
+  justify-content: baseline; 
+  display: -webkit-inline-box 0% 0% 10% 0%;
+}
+.titre1{
+  
+    border: none ;
+    box-shadow: 0 3px 30px dimgray;
+    border-radius: 20px;
+    background-color: white;
+    padding: 0 25px;
+    display: flex;
+    display: inline-block;
+}
+.divider-white{  
+  -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+      box-sizing: border-box;
+    }
+.sessions{
+  margin: 0%;
+}    
